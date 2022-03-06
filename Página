@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Monserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://i.ibb.co/TvdsdjZ/Hachini-Pasteles-1.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-shopping-cart w3-xxlarge"></i>
+    <p>CATÁLOGO</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACTO</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">CATÁLOGO</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACTO</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo">Pastelaxia</h1>
+    <img src="https://i.ibb.co/TvdsdjZ/Hachini-Pasteles-1.png" alt="boy" class="w3-image" width="300" height="300">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Pastelaxia</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Somos especialistas en cumplir los deseos de nuestros clientes, brindando una gran variedad de ingredientes para crear el pastel de tus sueños.
+       Evocando mediante los sabores, esa celebración familiar y rememorando momentos agradables. Elige y disfruta, ese es nuestro lema. 
+       Por ello te invitamos a elegir el sabor del pastel, más 1 decoración, si lo prefieres puedes elegir más de una decoración con el costo publicado adicional.
+    </p>
+    
+     
+        <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">Nuestros Clientes</h3>  
+    <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Julian Martínez.</span></p>
+    <p>Hachini Pasteles son los mejores, el sabor no tiene igual.</p><br>
+    
+    <img src="https://www.w3schools.com/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebeca López.</span></p>
+    <p>Son la mejor opción y a un excelente precio.</p><br>
+
+    <img src="https://www.superprof.es/imagenes/anuncios/profesor-home-chica-joven-desea-ayudar-chicos-jovenes-aprender-ensenar-saber-mas-sobre-las-materias-clase.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Lucia Sanz.</span></p>
+    <p>El mejor sabor, para todos los gustos.</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Catálogo</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+      <img src="https://i.pinimg.com/originals/a0/05/57/a00557eaba5f852455dae3202a984a7c.jpg" style="width:60%">
+    
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Menú de Pasteles</h2>
+    <hr style="width:200px" class="w3-opacity">
+         
+    <p>Strawberry......$350</p>
+    <p>Red Velvet......$320</p>
+    <p>Carrot......$300</p>
+    <p>Chocolate......$350</p>
+    <p>Coconut......$310</p>
+    <p>German Chocolate.....$380</p>
+    <p>Hummingbird......$400</p>
+    <p>Key Lime......$340</p>
+    <p>Neapolitan......$420</p>
+    </div>
+
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Menú de Decoración</h2>
+    <hr style="width:200px" class="w3-opacity">
+         
+    <p>Fresas......$50</p>
+    <p>Ferrero......$100</p>
+    <p>Duraznos......$60</p>
+    <p>Nueces......$80</p>
+    <p>Lunetas......$50</p>
+    <p>Chocolate Blanco.....$60</p>
+    <p>Chocolate Amargo......$60</p>
+    <p>Chocolate......$60</p>
+    <p>Cerezas......$70</p>
+    </div>
+        
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contactanos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Teléfono: +52 5556581111</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: ventas@hachini.com</p>
+      <p><i class="fa fa-clock-o fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Horario de atención: 9:00 am a 9:00 pm</p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Salina Cruz 96, Col Roma Sur, CDMX</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2511.6338538948876!2d-99.1664582364843!3d19.403817801712872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff1487cd9bcd%3A0x584bf2bc1d76a599!2sSalina%20Cruz%2C%20Roma%20Sur%2C%2006760%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2ses!4v1646533061411!5m2!1ses-419!2ses" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div><br>
+    
+    <p>Elige el sabor:</p>
+        
+    <form action="/action_page.php" target="_blank">
+      <select class="w3-button w3-light-grey w3-padding-large" name="decoracion" id="decoracion">
+        <option value="Pastel1">Strawberry</option>
+        <option value="Pastel2">Red Velvet</option>
+        <option value="Pastel3">Carrot</option>
+        <option value="Pastel4">Chocolate</option>
+        <option value="Pastel5">Coconut</option>
+        <option value="Pastel6">German Chocolate</option>
+        <option value="Pastel7">Hummingbird</option>
+        <option value="Pastel8">Key Lime</option>
+        <option value="Pastel9">Neapolitan</option>
+        </select><br><br>
+
+    <p>Elige la decoración:</p>
+    <form action="/action_page.php" target="_blank">
+      <select class="w3-button w3-light-grey w3-padding-large" name="sabores" id="sabores">
+        <option value="Pastel1">Fresas</option>
+        <option value="Pastel2">Ferrero</option>
+        <option value="Pastel3">Duraznos</option>
+        <option value="Pastel4">Nueces</option>
+        <option value="Pastel5">Lunetas</option>
+        <option value="Pastel6">Chocolate Blanco</option>
+        <option value="Pastel7">Chocolate Amargo</option>
+        <option value="Pastel8">Chocolate</option>
+        <option value="Pastel9">Cerezas</option>
+        </select><br><br>
+
+    <form action="/action_page.php" target="_blank">
+    <select class="w3-button w3-light-grey w3-padding-large" name="sabores1" id="sabores1">
+        <option value="Pastel1">Ninguno</option>
+        <option value="Pastel1">Fresas</option>
+        <option value="Pastel2">Ferrero</option>
+        <option value="Pastel3">Duraznos</option>
+        <option value="Pastel4">Nueces</option>
+        <option value="Pastel5">Lunetas</option>
+        <option value="Pastel6">Chocolate Blanco</option>
+        <option value="Pastel7">Chocolate Amargo</option>
+        <option value="Pastel8">Chocolate</option>
+        <option value="Pastel9">Cerezas</option>
+        </select><br><br>
+
+    <form action="/action_page.php" target="_blank">
+    <select class="w3-button w3-light-grey w3-padding-large" name="sabores2" id="sabores2">
+        <option value="Pastel1">Ninguno</option>
+        <option value="Pastel1">Fresas</option>
+        <option value="Pastel2">Ferrero</option>
+        <option value="Pastel3">Duraznos</option>
+        <option value="Pastel4">Nueces</option>
+        <option value="Pastel5">Lunetas</option>
+        <option value="Pastel6">Chocolate Blanco</option>
+        <option value="Pastel7">Chocolate Amargo</option>
+        <option value="Pastel8">Chocolate</option>
+        <option value="Pastel9">Cerezas</option>
+        </select><br>
+
+      <p>Realiza tu pedido en linea:</p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nombre" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Teléfono" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Observaciones" required name="Message"></p>
+      
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> REALIZAR PEDIDO
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+   <p class="w3-small">Hachini Pasteles S.A. de C.V. Derechos Reservados 2022</p>
+  <a href="http://fervel.com.mx/AvisoPrivacidad.pdf" target="blank">Aviso de Privacidad</a><br>
+   <!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
